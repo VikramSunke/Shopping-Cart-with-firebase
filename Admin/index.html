@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Manage Products</h1>
+    </div>
+
+    <div>
+        <button id="add_product">Add Product</button>
+    </div>
+
+    <div id="add_Product_Page" class="addProductPage">
+        <div>
+            <a href="#" class="close">X</a>
+        </div>
+        <div class="content">
+            <div class="wrapper">
+                <form id="add_product_page">
+                    <div>
+                        <label>Product Name</label>
+                        <div><input type="text" id="name" placeholder="Enter product name"></div>
+                    </div>
+                    <div>
+                        <label>Description</label>
+                        <div><textarea id="description" placeholder="Enter product description"></textarea></div>
+                    </div>
+                    <div>
+                        <label>Product Image</label>
+                        <div><input type="text" id="productimage" placeholder="Enter Product Image Url"></div>
+                    </div>
+                    <div>
+                        <label>Price</label>
+                        <div><input type="number" id="price" placeholder="Enter product price"></div>
+                    </div>
+                    <div class="action_buttons">
+                        <button class="add_button">Add</button>
+                        <button class="cancel_button">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="update_modal" class="update_page">
+        <div>
+            <a href="#" class="close">X</a>
+        </div>
+        <div class="content">
+            <div class="wrapper">
+                <form>
+                    <div>
+                        <label>Product Name</label>
+                        <div><input type="text" id="nameUpdate"></div>
+                    </div>
+                    <div>
+                        <label>Description</label>
+                        <div><textarea id="descriptionUpdate"></textarea></div>
+                    </div>
+                    <div>
+                        <label>Product Image</label>
+                        <div><input type="text" id="productimageUpdate"></div>
+                    </div>
+                    <div>
+                        <label>Price</label>
+                        <div><input type="number" id="priceUpdate"></div>
+                    </div>
+                    <div class="action_buttons">
+                        <button class="put_button">Update</button>
+                        <button class="cancel_button">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <table>
+        <table id="products_list">
+            <thead class="table_header">
+                <tr>
+                    <th>Prodcut Id</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Image</th>
+                    <th>Price</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="table_body">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </table>
+
+
+
+</body>
+<script src='firebase.js'></script>
+
+</html>

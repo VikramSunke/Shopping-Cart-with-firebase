@@ -1,0 +1,138 @@
+.header{
+    text-align: center;
+    color: coral;
+    background-color: black;
+    padding:13px 0px;
+    margin-bottom: 10px;
+}
+
+#add_product {
+    background-color: skyblue;
+    font-weight: bolder;
+    border: none;
+    padding: 15px 40px;
+    color: black;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+
+}
+#products_list{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.table_header{
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(205, 243, 205);
+}
+#table_body{
+    background-color: rgb(238, 248, 238);
+}
+#table_body td {
+    padding-top: 10px; 
+    padding-left: 5px;
+}
+.table_header th{
+    padding: 10px;
+}
+.update_button{
+    border: none;
+    background-color: lightskyblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.delete_button{
+    border: none;
+    background-color: lightcoral;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#add_Product_Page{
+    background-color: skyblue;
+    width:100vw;
+    height:100vh;
+}
+#add_Product_Page{
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    position: absolute;
+    background-color: grey;
+}
+.addProductPage{
+    display: none;
+}
+.wrapper{
+    width: 40%;
+    margin: 10% auto;
+    background-color: white;
+    color: lightslategray;
+    top:5%;
+    padding: 15px;
+    border: 5px solid grey(53, 47, 47);
+    border-radius: 5px;
+    
+}
+.wrapper label{
+    font-size: larger;
+    font-weight: bolder;
+}
+input,textarea {
+    background-color: gainsboro;
+    border: none;
+    padding: 10px;
+    width: 95%;
+    margin-bottom: 15px;
+}
+.action_buttons{
+    width: 100%;
+    border: none;
+}
+.add_button{
+    border: none;
+    color: white;
+    background-color: skyblue;
+    padding: 10px;
+    width: 40%;
+}
+.cancel_button{
+    border: none;
+    color: white;
+    background-color: lightcoral;
+    padding: 10px;
+    width: 40%;
+}
+a.close{
+    position: absolute;
+    right: 30px;
+    color: rgb(143, 40, 40);
+    padding-right: 30px;
+    padding-top: 30px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+#update_modal{
+    top: 0px;
+    bottom: -1%;
+    right: 0px;
+    left: 0px;
+    position: absolute;
+    background-color: grey;
+}
+.update_page{
+    display: none; 
+}
+.put_button{
+    border: none;
+    color: white;
+    background-color: skyblue;
+    padding: 10px;
+    width: 40%;
+}
+body{
+    background-color: rgb(73, 67, 67);
+}
